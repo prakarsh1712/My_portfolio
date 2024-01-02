@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--White background on icon so it stays visible during dark mode browsers-->
+    <link rel="shortcut icon" href="images/BitmojieIcon(1).jpeg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8a2ffb66a4.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h2 class='logo navbar'>
+            <a target="blank" href="https://github.com/prakarsh1712">
+                @prakarsh1712
+            </a>
+        </h2>
+        <input type="checkbox" id="btn-toggle">
+        <label for="btn-toggle" class='btn-toggle'>
+            <span></span>
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#about'>About Me</a></li>
+                <li><a href='#strengths'>Strengths</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <!-- About -->
+    <div class="main" id="home">
+        <div class="first">
+            <h1 class="first-a fade">Hello,</h1>
+            <h3 class="first-b">I am Prakarsh Joshi😎!</h3>
+            <div id="c">
+                <h4 class="first-c">
+                    I am an enthusiastic programmer... 👩‍💻
+                </h4>
+                <div class="myButton">
+                    <a href="https://drive.google.com/file/d/1-MsQlcr--LYpdF_KnnTPL9d9pvaNu5EX/view?usp=drive_link"
+                        target="blank">
+                        My
+                        Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="second fade">
+            Start Scrolling and take a look at my Portfolio, <br>
+            and let's create something big together !
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow"></i></button>
+
+    <!--Scroll Icon -->
+    <div class='icon-scroll fade' onclick="scrollToContent()"></div>
+
+    <!-- Intro -->
+    <div class="intro" id="about">
+        <div class="intro-text">
+            <div class="intro-head">
+                About Me
+            </div>
+
+
+            <p class="stagger">
+                I am a student at the VIT Bhopal University with a major in Computer Science.
+                I am passionate about pursuing my major in Computer Science Engineering. 
+                My goal is to get a job in the IT field after graduating. I am plan to move out of that company and into an IT firm after I graduate.
+            </p>
+            <br>
+            <p class="stagger">
+                I enjoy solving technical problems, researching and developing new technologies, designing applications for different platforms.  
+                I enjoy meeting people and working with them in a team environment.    
+            </p>
+            <br>
+            <p class="stagger">
+                I have completed multiple courses and certifications in machine learning, cloud, and other technologies. 
+                I am passionate about learning new technologies and applying them to real-world problems, and I aspire to become a leader and a mentor in the field of Software Engineering.
+                I am a quick learner with a fun, outgoing personality. In addition, I excel in my ability to work under pressure and handle stressful situations very well.
+            </p>
+            <br>
+            <p class="stagger">
+                Apart from academics, If you are a person who loves to discuss about Sports, Geographical Knowledge, F.R.I.E.N.D.S. or
+                Traveling or any random space mystery feel free to hit me up!
+            </p>
+        </div>
+        <img src="./images/Prakarsh.jpg" alt="">
+    </div>
+
+    <!--Gallup Strengths -->
+    <div class="strengths" id="strengths">
+        <div class="strengths-heading">
+            <a class="link-on-heading" href="https://drive.google.com/file/d/1O1m_VeBWuZtQGMHL3VtGYgvT6tH8vMsj/view?usp=sharing" target="_blank">
+                My Strengths 
+            </a>
+        </div>
+        <div class="strengths-text">
+
+            <div class="strength-card">
+                <div class="strength-name"> Achiever </div>
+                <p>
+                    People exceptionally talented in the Achiever theme work hard
+                    and possess a great deal of stamina. They take immense
+                    satisfaction in being busy and productive.
+                </p>
+            </div>
+
+            <div class="strength-card">
+                <div class="strength-name"> Restorative </div>
+                <p>
+                    People exceptionally talented in the Restorative theme are
+                    adept at dealing with problems. They are good at guring out what is wrong and resolving it.
+                </p>
+            </div>
+
+            <div class="strength-card">
+                <div class="strength-name"> Focus </div>
+                <p>
+                    People exceptionally talented in the Focus theme can take a direction, follow through and make the
+                    corrections necessary to stay on track. They prioritize, then act.
+                </p>
+            </div>
+
+            <div class="strength-card">
+                <div class="strength-name"> Futuristic </div>
+                <p>
+                    People exceptionally talented in the Futuristic theme are
+                    inspired by the future and what could be. They energize others with their visions of the future.
+                </p>
+            </div>
+
+            <div class="strength-card">
+                <div class="strength-name"> Competition </div>
+                <p>
+                    People exceptionally talented in the Competition theme
+                    measure their progress against the performance of others.
+                    They strive to win rst place and revel in contests.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Skills -->
+    <div class="skills" id="skills">
+        <h2 class="skills-heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3 class="skill-name">Frontend</h3>
+                <ul class="skills-text">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>ReactJS</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="skill-name">Backend</h3>
+                <ul class="skills-text">
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="skill-name">Languages</h3>
+                <ul class="skills-text">
+                    <li>Java</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="skill-name">Tools</h3>
+                <ul class="skills-text">
+                    <li>MS Visual Studio</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Cisco Packet Tracer</li>
+                    <li>Spyder(anaconda3)</li>
+                    <li>MySQL Workbench</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3 class="skill-name">Others</h3>
+                <ul class="skills-text">
+                    <li>Windows</li>
+                    <li>Databases</li>
+                    <li>Google Cloud</li>
+                    <li>Data Science</li>
+                    <li>Computer Network</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects" id="projects">
+        <div class="projects-heading">
+            <a class="link-on-heading" href="https://github.com/kd1729" target="_blank" style="text-decoration: none;"> My Projects </a>
+        </div>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/prakarsh1712/panda-food" target="_blank">
+                        Panda Food</a>
+                </div>
+                <div class="project-desc">
+                    Used HTML, CSS and JS to develop frontend of a Responsive Restaurant using PHP.
+                    Also used Xampp for Control Panel. User can
+                    perform various queries like searching Food, show food price
+                    and show menu based on different criterias. Also user can add
+                    food to their Cart, Completed the payment.
+                </div>
+                <button class="project-button">
+                    <a href="https://github.com/prakarsh1712/panda-food" target="_blank">
+                        View Code
+                    </a>
+                </button>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/prakarsh1712/Face-Recognition" target="_blank">
+                        Emotion Face Detection </a>
+                </div>
+                <div class="project-desc">
+                    Worked on a Emotion Face Detection project it is Machine Learning project to detect facial emotions in live and pre-recorded video feed as well
+                    as in still photographs. We used technology python, OpenCV, Keras-Tensorflow, Numpy.
+                    This project classifies whether a human show its emotion on face or not.
+                </div>
+                <button class="project-button">
+                    <a href="https://github.com/prakarsh1712/Face-Recognition" target="_blank">
+                        View Code
+                    </a>
+                </button>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/prakarsh1712/Mern-Task-3"
+                        target="_blank">Mern Task</a>
+                </div>
+                <div class="project-desc">
+                    I used reactjs for this project in that I make colopicker, Age calculator, Calculator, Portfolio, Wordcounter and Record. 
+                </div>
+                <button class="project-button">
+                    <a href="https://prakarsh1712.github.io/Mern-Task-3/" target="_blank">
+                        View Project
+                    </a>
+                </button>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/prakarsh1712/MERN_Task_2.0" target="_blank">
+                        Mern Task 2.0
+                        </a>
+                </div>
+                <div class="project-desc">
+                    I used HTML, CSS, BootStrap and JavaScript in this project
+                </div>
+                <button class="project-button">
+                    <a href="https://prakarsh1712.github.io/MERN_Task_2.0/" target="_blank">
+                        View Project
+                    </a>
+                </button>
+            </div>
+
+            <div class="grid-item">
+                <div class="project-name">
+                    <a class="project-link" href="https://github.com/prakarsh1712/100DaysofCode" target="_blank">
+                        100 Days of Code</a>
+                </div>
+                <div class="project-desc">
+                    I solve 100 Problems(per day one problem) in Java from LeetCode Platform.
+                </div>
+                <button class="project-button">
+                    <a href="https://github.com/prakarsh1712/100DaysofCode" target="_blank">
+                        View Code
+                    </a>
+                </button>
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Experience -->
+    
+
+
+    <div class="experience" id="experience">
+
+        <div class="experience-heading">
+           My Experience
+        </div>
+
+        <div class="experience-list">
+
+            <div class="experience-text">
+                <div class="experience-name">
+                   <a class="link-on-experience" href="https://www.linkedin.com/in/prakarsh-joshi-b60022217/" target="_blank"> Business Development Intern  </a>
+                </div>
+                <div class="time-period"> November 2023 - February 2024</div>
+
+                <div class="responsibilities" >
+                    <ul>
+                        <li>Worked as a Business Development Intern at Yodaplus Technologies Private Limited from Nov to Feb joined as full time.</li>
+                        <li>Migrated the build Database of the product from Google sheet and send mail to chief of companies about what Yodaplus provide secure and scalabe solution</li>
+                        <li>Working on various feature improvements on Business Development</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-text">
+                <div class="experience-name">
+                   <a class="link-on-experience" href="https://drive.google.com/file/d/1BPrWE5jE5A0nT9vIYZxlhfliufWQyyLP/view?usp=sharing" target="_blank"> Mern Full Stack </a>
+                </div>
+                <div class="time-period"> Aug-Nov 2023</div>
+
+                <div class="responsibilities" >
+                    <ul>
+                        <li>I learned HTML, CSS and JS for FrontEnd and MongoDB, ExpressJS, ReactJS and NodesJS for backend at Ethnus from Codemithra</li>
+                        <li>This Technologies is helpful to built a perfect websites.</li>
+                        <li>In this tenure I do many projects in their respective domain what I learned form it. </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+
+            <div class="experience-text">
+                    <div class="experience-name">
+                        <a class="link-on-experience" href="https://drive.google.com/file/d/1NlkSss-z21-RnJ4iD01BLpwQPgm1y9-g/view?usp=sharing" target="_blank">
+                        PR and Outreach Team at Iot Club
+                        </a>
+                    </div>
+                <div class="time-period"> Jul 2023-Present</div>
+
+                    <div class="responsibilities" >
+                        <ul>
+                            <li>I am currently as Part of Iot Club as an designation of PR and Outreach Team member at VIT bhopal</li>
+                            <li>Collaborate with other campus organizations or industry partners to co-promote events.</li>
+                            <li>Develop strategies to promote the club's brand and image within the university or community.</li>
+                            <li>Create and schedule content that highlights IoT projects, events, and relevant industry news.</li>
+                        
+                        </ul>
+                    </div>
+            </div>
+
+
+            <div class="experience-text">
+                    <div class="experience-name">
+                        <a class="link-on-experience" href="https://drive.google.com/file/d/1coNqI8hAWmssVgr8AyriWlvidEJDNxA8/view?usp=sharing" target="_blank">
+                        Core Member at NSS Club
+                        </a>
+                    </div>
+                <div class="time-period"> OCt 2021-Present</div>
+
+                    <div class="responsibilities" >
+                        <ul>
+                            <li>I am currently as an position of Core member of NSS club AT VIT bhopal </li>
+                            <li>I often play a key role in planning and organizing community service events, camps, awareness programs, and other activities aimed at addressing social issues. </li>
+                            <li>Actively engaging with the local community to identify their needs, concerns, and priorities is another important aspect of the role. This helps in tailoring NSS activities to address specific community issues.</li>
+                            <li>We have to responsible for coordinating with local communities, NGOs, government agencies, and other stakeholders to ensure effective collaboration and implementation of projects as an NSS unit.</li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="experience-text">
+                <div class="experience-name">
+                    <a class="link-on-experience" href="https://drive.google.com/file/d/1vJcDZzSfuCAmWsMd7a2iKIffCAq4-wK-/view?usp=sharing" target="_blank">
+                    Team Member at Microsoft Technical Club
+                    </a>
+                </div>
+                <div class="time-period"> March 2023</div>
+                <div class="responsibilities" >
+                    <ul>
+                        <li>I am Team member of Microsoft Technical Club at VIT bhopal University. </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact" id="contactme">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mqkwgovb" method="POST">
+            <input name="name" type="text" class="feedback-input scroll" placeholder="Name" required/>
+            <input name="email" type="text" class="feedback-input scroll" placeholder="Email" required/>
+            <textarea name="text" class="feedback-input scroll" placeholder="Comment" required></textarea>
+            <input type="submit" value="SUBMIT" class="scroll" />
+        </form>
+        <!-- social icons -->
+
+        <div class="icons">
+            <ul>
+                <li><a class="social-icon social-icon--twitter" href="https://twitter.com/prakarshjoshi17"
+                        target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i>
+                        <div class="tooltip">twitter</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--github" href="https://github.com/prakarsh1712" target="_blank"><i
+                            class="fab fa-github" aria-hidden="true"></i>
+                        <div class="tooltip">GitHub</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/prakarsh-joshi-b60022217/"
+                        target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <div class="tooltip">linkedin</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--instagram" href="https://www.instagram.com/prakarsh_17/"
+                        target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>
+                        <div class="tooltip">instagram</div>
+                    </a></li>
+                <li><a class="social-icon social-icon--envelope" href="mailto:prakarshjoshi17@gmail.com"
+                        target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div class="tooltip">mail</div>
+                    </a></li>
+            </ul>
+        </div>
+
+        <!-- <div class="counter">
+            <div class="head">Total Website Visit</div>
+            <div class="count">00</div>
+        </div>
+
+        <script>
+            function updateCounter() {
+                fetch('https://api.countapi.xyz/update/uimonk/youtubechannel/?amount=1')
+                    .then(res => res.json())
+                    .then(data => counterElement.innerHTML = data.value)
+            }
+            updateCounter()
+            counterElement = document.getElementsByClassName('count')[0];
+        </script> -->
+
+        <!-- gsap animation script tag -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+            integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+            integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- javascript script tag -->
+        <script src="./app.js"></script>
+
+</body>
+
+</html>
